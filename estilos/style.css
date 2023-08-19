@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fafafa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.celular {
+    width: 450px;
+}
+
+.logo {
+    width: 230px;
+    height: 70px;
+}
+
+.imagens {
+    position: relative;
+}
+
+.insta {
+    width: 293px;
+    height: 610px;
+    position: absolute;
+    left: 136px;
+    top: 26px;
+    transition: 2s ease-in-out;
+}
+
+.container {
+    width: 250px;
+    height: 300px;
+    border: 1px solid #b8b6b6;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    border: 1px solid #d3d3d3;
+    border-radius: 3px;
+    margin-top: 10px;
+    outline: none;
+    padding: 10px;
+}
+
+.my-button {
+    background-color: #0095f6;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    margin-top: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.my-button:hover {
+    background-color: #06619e;
+    transition: .4s ease;
+}
+
+.facebook {
+    color: #385185;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.senha {
+    text-align: center;
+    color: #385185;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+div > a:hover {
+    color: #0a2155;
+    text-decoration: underline;
+}
